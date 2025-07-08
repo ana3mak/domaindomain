@@ -1,18 +1,18 @@
 {
-  "subdomain": "yoursubdomain",
+  "subdomain": "waleed",
   "domain": "thedev.me",
-  "email_or_discord": "user@example.com or user",
-  "github_username": "user",
+  "email": "12waleed432@gmail.com",
+  "github_username": "ana3mak",
   "description": "A brief description of the purpose of the subdomain",
 
   "records": {
     "A":     ["1.0.0.1", "1.0.0.2"],
     "AAAA":  ["2000:db8::1", "2000:db8::2"],
-    "CNAME": ["example.com"],
+    "CNAME": ["waleed.thedev.me"],
     "NS":    ["ns1.example.com", "ns2.example.com"],
     "MX":    ["mail1.example.com","mail2.example.com"],
     "TXT":   ["v=spf1 include:_spf.example.com ~all"]
   },
 
-  "proxied": true
+  "proxied": false
 }
